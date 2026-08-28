@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "early-branch-locking"
+version = "1.0.0"
+description = "Research code for measuring early branch locking in RLVR models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Qiancheng Zhou"}]
+keywords = ["RLVR", "reasoning diversity", "language models"]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "pyarrow>=12.0"]
+
+[project.optional-dependencies]
+inference = ["torch>=2.1", "transformers>=4.40", "vllm>=0.6"]
+training = ["ray>=2.0", "verl"]
+math-eval = ["antlr4-python3-runtime"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.urls]
+Repository = "https://github.com/ershiyidian/early-branch-locking"
+
+[project.scripts]
+ebl-math-evaluate = "early_branch_locking.math_transfer.evaluate_math_benchmarks:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

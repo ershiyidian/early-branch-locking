@@ -1,0 +1,24 @@
+{
+  "expected": "operand-plus-operator span only; prompt-free response detector",
+  "experiment_id": "entrance_entropy_training",
+  "git_commit": "e59131b351268961a9cecf252341e35fe86d0ae9",
+  "paper_status": "SMOKE_NON_PAPER",
+  "protocol_version": "s3-entrance-entropy-v1",
+  "rows": [
+    {
+      "mask_tokens": 4,
+      "parse": true,
+      "text": "<think>Let me try: 88 - 87 = 1.</think><answer>88 - 87</answer>"
+    },
+    {
+      "mask_tokens": 4,
+      "parse": true,
+      "text": "<think>Try 83 + 87</think><answer>83 + 87</answer>"
+    },
+    {
+      "mask_tokens": 0,
+      "parse": false,
+      "text": "<think>Numbers are [83, 87, 88]</think><answer>NO_SOLUTION</answer>"
+    }
+  ]
+}

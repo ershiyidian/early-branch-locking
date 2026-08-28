@@ -1,0 +1,13 @@
+# External components are installed separately; no third-party source is vendored.
+- name: TinyZero
+  source: https://github.com/Jiayi-Pan/TinyZero
+  license: Apache-2.0
+  usage: Optional host training runtime.
+- name: veRL
+  source: https://github.com/volcengine/verl
+  license: Apache-2.0
+  usage: Optional PPO/GRPO training runtime.
+- name: official-math-evaluator
+  source: https://github.com/limit-of-RLVR
+  license: Upstream terms apply.
+  usage: Optional OLMo benchmark scoring; pass --evaluator-root.
