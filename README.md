@@ -1,4 +1,18 @@
-# Early Branch Locking
+<h2><p align="center">
+Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space
+</p></h2>
+
+<strong><p align="center">
+Qiancheng Zhou<sup>♥</sup> &nbsp; Ruizhe Li<sup>♦</sup> &nbsp;
+</p></strong>
+
+<p align="center">Shanghai University ♥ &nbsp; University of Birmingham ♦ &nbsp;</p>
+
+<p align="center"><a href="mailto:zhou_3721@shu.edu.cn">zhou_3721@shu.edu.cn</a> &nbsp; <a href="mailto:r.li.7@bham.ac.uk">r.li.7@bham.ac.uk</a> &nbsp;</p>
+
+---
+
+## Overview
 
 Research software for *Early Branch Locking in Reinforcement Learning via Verifiable Rewards*.
 The package measures solution coverage, entrance concentration, access/execution behavior,
@@ -42,4 +56,15 @@ GPU-backed modules are validated after installing the matching optional extra.
 ## License and citation
 
 Original code is MIT licensed; upstream components retain their own licenses as documented
-in `third_party/MANIFEST.yaml` and `THIRD_PARTY_NOTICES.md`. Cite the paper using `CITATION.cff`.
+in `third_party/MANIFEST.yaml` and `THIRD_PARTY_NOTICES.md`.
+
+If you use this repository, dataset, or code in your research, please cite:
+
+```bibtex
+@inproceedings{zhou2026locked,
+  title     = {Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space},
+  author    = {Zhou, Qiancheng and Li, Ruizhe},
+  booktitle = {arxiv},
+  year      = {2026}
+}
+```
