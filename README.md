@@ -61,10 +61,13 @@ in `third_party/MANIFEST.yaml` and `THIRD_PARTY_NOTICES.md`.
 If you use this repository, dataset, or code in your research, please cite:
 
 ```bibtex
-@inproceedings{zhou2026locked,
-  title     = {Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space},
-  author    = {Zhou, Qiancheng and Li, Ruizhe},
-  booktitle = {arxiv},
-  year      = {2026}
+@misc{zhou2026lockedentranceopeninside,
+      title={Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space}, 
+      author={Qiancheng Zhou and Ruizhe Li},
+      year={2026},
+      eprint={2608.29188},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2608.29188}, 
 }
 ```
