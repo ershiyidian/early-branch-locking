@@ -2,7 +2,6 @@
 Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space
 </p></h2>
 
----
 
 ## Overview
 
