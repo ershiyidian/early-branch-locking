@@ -2,14 +2,6 @@
 Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space
 </p></h2>
 
-<strong><p align="center">
-Qiancheng Zhou<sup>♥</sup> &nbsp; Ruizhe Li<sup>♦</sup> &nbsp;
-</p></strong>
-
-<p align="center">Shanghai University ♥ &nbsp; University of Birmingham ♦ &nbsp;</p>
-
-<p align="center"><a href="mailto:zhou_3721@shu.edu.cn">zhou_3721@shu.edu.cn</a> &nbsp; <a href="mailto:r.li.7@bham.ac.uk">r.li.7@bham.ac.uk</a> &nbsp;</p>
-
 ---
 
 ## Overview
@@ -53,21 +45,7 @@ adapters require external TinyZero/veRL and are not run by the default CI.
 The default installation intentionally supports only dependency-light `core` imports;
 GPU-backed modules are validated after installing the matching optional extra.
 
-## License and citation
+## License
 
 Original code is MIT licensed; upstream components retain their own licenses as documented
 in `third_party/MANIFEST.yaml` and `THIRD_PARTY_NOTICES.md`.
-
-If you use this repository, dataset, or code in your research, please cite:
-
-```bibtex
-@misc{zhou2026lockedentranceopeninside,
-      title={Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space}, 
-      author={Qiancheng Zhou and Ruizhe Li},
-      year={2026},
-      eprint={2608.29188},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2608.29188}, 
-}
-```
